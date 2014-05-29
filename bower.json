@@ -1,0 +1,20 @@
+{
+	"name": "class-emit",
+	"description": "Simple class emit",
+	"version": "1.0.0",
+	"keywords": [
+		"class",
+		"emit",
+		"on",
+		"amd"
+	],
+	"main": [
+		"index.js"
+	],
+	"ignore": [
+		".*"
+	],
+	"dependencies": {
+    	"class-extend": "~1.0.2"
+    }
+}
