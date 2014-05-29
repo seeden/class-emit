@@ -1,6 +1,6 @@
 {
 	"name": "class-emit",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Simple class emit",
 	"author": {
 		"name": "Zlatko Fedor",
@@ -9,7 +9,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/seeden/class-extend.git"
+		"url": "git://github.com/seeden/class-emit.git"
 	},
 	"keywords": [
 		"class",
@@ -27,8 +27,23 @@
 	"main": "./lib/",
 	"engines": {
 		"node": ">= 0.10.0"
+	},
+	"scripts": {
+		"test": "node node_modules/grunt-cli/bin/grunt test"
 	},	
 	"bugs": {
-		"url": "https://github.com/seeden/class-extend/issues"
+		"url": "https://github.com/seeden/class-emit/issues"
+	},
+	"devDependencies": {
+		"grunt": "~0.4.4",
+		"grunt-cli": "~0.1.13",
+		"grunt-env": "~0.4.1",
+		"grunt-concurrent": "~0.4.2",
+		"grunt-contrib-jshint": "~0.10.0",
+		"grunt-nodemon": "~0.2.1",
+		"grunt-contrib-watch": "~0.6.1",
+		"should": "~3.3.1",
+		"supertest": "~0.11.0",
+		"grunt-mocha-test": "~0.10.2"
 	}
 }

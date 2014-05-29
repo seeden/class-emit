@@ -1,7 +1,7 @@
 {
 	"name": "class-emit",
 	"description": "Simple class emit",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"keywords": [
 		"class",
 		"emit",
@@ -13,8 +13,5 @@
 	],
 	"ignore": [
 		".*"
-	],
-	"dependencies": {
-    	"class-extend": "~1.0.2"
-    }
+	]
 }
